@@ -1,7 +1,8 @@
 # Project 1 #
+
 - - - - 
 
-Project Tasks:
+### Project Tasks: ###
 
 - [x] Create a VM
 - [ ] Install the openJDK11
@@ -10,10 +11,16 @@ Project Tasks:
 
 - - - - 
 
-Current Test Ideas:
+### Current Test Ideas: ###
 
 * Valid csv file
 * Empty file
 * File with wrong limiters
 
 - - - -
+
+### Valid CSV Format: ###
+
+1. Each line represents a row in the table ends with a "\n" character
+2. Columns are seperated by a "," character in each row/line
+3. Each row should have the same amount of columns
