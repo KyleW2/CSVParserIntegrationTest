@@ -10,7 +10,7 @@ public class CSVParser {
     // Constructor
     public CSVParser(String fileName) {;
         csvFile = new File(fileName);
-        csv = getCSV();
+        csv = this.getCSV();
     }
 
     public int getNumRows() {
@@ -61,7 +61,7 @@ public class CSVParser {
     }
 
     // Just for printing
-    public String getCSVString() {
+    public String toString() {
         // Return string
         String out = new String();
         // CSV ArrayList
