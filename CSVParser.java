@@ -5,10 +5,20 @@ import java.util.ArrayList;
 
 public class CSVParser {
     File csvFile;
+    ArrayList<String[]> csv;
 
     // Constructor
     public CSVParser(String fileName) {;
         csvFile = new File(fileName);
+        csv = getCSV();
+    }
+
+    public int getNumRows() {
+        return csv.size();
+    }
+
+    public int getNumColumns() {
+        return csv.get(0).length;
     }
 
     // Reads lines/rows of csv file into an ArrayList for getCSV()
