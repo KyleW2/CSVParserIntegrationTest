@@ -5,7 +5,7 @@
 ### Project Tasks: ###
 
 - [x] Create a VM
-- [ ] Install the openJDK11
+- [x] Install OpenJDK11
 - [ ] Validate CSV parsing with unit tests (en, es)
 - [ ] GitHub actions for regression testing
 
