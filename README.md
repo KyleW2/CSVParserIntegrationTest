@@ -13,7 +13,9 @@
 
 ### Current Test Ideas: ###
 
-* Valid csv file
+* Random elements are read correctly
+* Correct number of rows
+* Correct number of columns
 * Empty file
 * File with wrong limiters
 
