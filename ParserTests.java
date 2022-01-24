@@ -27,10 +27,10 @@ public class ParserTests {
     public void testRandomElements() {
       CSVParser test = new CSVParser("csv/valid.csv");
       ArrayList<String[]> testCsv = test.getCSV();
-      assertEquals("failure - number of rows are not equal", "1", testCsv.get(1)[1]);
-      assertEquals("failure - number of rows are not equal", "d", testCsv.get(4)[0]);
-      assertEquals("failure - number of rows are not equal", "5", testCsv.get(5)[1]);
-      assertEquals("failure - number of rows are not equal", "b", testCsv.get(2)[0]);
+      assertEquals("failure - element is not correct", "1", testCsv.get(1)[1]);
+      assertEquals("failure - element is not correct", "d", testCsv.get(4)[0]);
+      assertEquals("failure - element is not correct", "5", testCsv.get(5)[1]);
+      assertEquals("failure - element is not correct", "b", testCsv.get(2)[0]);
     }
 
     @Test
