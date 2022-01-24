@@ -13,8 +13,8 @@
 
 ### Current Test Ideas: ###
 
-* Random elements are read correctly
-* Correct number of rows
+* ~~Random elements are read correctly~~
+* ~~Correct number of rows~~
 * Correct number of columns
 * Empty file
 * File with wrong limiters
