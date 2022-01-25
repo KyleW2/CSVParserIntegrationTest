@@ -1,4 +1,4 @@
-package com.CapstoneTeam18.app;
+package com.capstoneteam18.app;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
