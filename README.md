@@ -6,8 +6,8 @@
 
 - [x] Create a VM
 - [x] Install OpenJDK11
-- [ ] Validate CSV parsing with unit tests (en, es)
-- [ ] GitHub actions for regression testing
+- [x] Validate CSV parsing with unit tests (en, es)
+- [x] GitHub actions for regression testing
 
 - - - - 
 
