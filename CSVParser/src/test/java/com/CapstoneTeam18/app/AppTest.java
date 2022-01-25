@@ -4,6 +4,11 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Files;
+
 
 /*
   Valid.csv:
@@ -18,9 +23,10 @@ import java.util.ArrayList;
 
 public class AppTest {
     @Test
-    public void testRandomElements() {
-      CSVParser test = new CSVParser("/home/runner/work/Capstone/Capstone/CSVParser/src/test/java/com/capstoneteam18/app/valid.csv");
+    public void testRandomElements() throws IOException {
+      CSVParser test = new CSVParser("./src/test/java/com/capstoneteam18/app/csv/valid.csv");
       ArrayList<String[]> testCsv = test.getCSV();
+
       assertEquals("failure - element is not correct", "1", testCsv.get(1)[1]);
       assertEquals("failure - element is not correct", "d", testCsv.get(4)[0]);
       assertEquals("failure - element is not correct", "5", testCsv.get(5)[1]);
@@ -28,8 +34,8 @@ public class AppTest {
     }
 
     @Test
-    public void testNumberOfRows() {
-      CSVParser test = new CSVParser("/home/runner/work/Capstone/Capstone/CSVParser/src/test/java/com/capstoneteam18/app/valid.csv");
+    public void testNumberOfRows() throws IOException {
+      CSVParser test = new CSVParser("./src/test/java/com/capstoneteam18/app/csv/valid.csv");
       assertEquals("failure - number of rows are not equal", 6, test.getNumRows());
     }
 }
