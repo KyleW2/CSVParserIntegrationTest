@@ -176,7 +176,7 @@ public class AppTest {
       assertEquals(errorString, "ll", testCsv.get(14)[0]);
       assertEquals(errorString, "m", testCsv.get(15)[0]);
       assertEquals(errorString, "n", testCsv.get(16)[0]);
-      assertEquals(errorString, "ñ", testCsv.get(17)[0]);
+      assertEquals(errorString, "nn", testCsv.get(17)[0]);
       assertEquals(errorString, "o", testCsv.get(18)[0]);
       assertEquals(errorString, "p", testCsv.get(19)[0]);
       assertEquals(errorString, "q", testCsv.get(20)[0]);
