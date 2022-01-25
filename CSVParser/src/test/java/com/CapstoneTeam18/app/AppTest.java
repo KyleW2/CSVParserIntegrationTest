@@ -1,13 +1,10 @@
-package com.capstoneteam18.app;
+package com.CapstoneTeam18.app;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Files;
 
 
 /*

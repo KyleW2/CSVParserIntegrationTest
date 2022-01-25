@@ -1,4 +1,4 @@
-package com.capstoneteam18.app;
+package com.CapstoneTeam18.app;
 
 public class App {
     public static void main(String[] args) {

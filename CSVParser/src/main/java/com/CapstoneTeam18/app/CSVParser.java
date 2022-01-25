@@ -1,4 +1,4 @@
-package com.capstoneteam18.app;
+package com.CapstoneTeam18.app;
 
 import java.io.File;
 import java.io.FileNotFoundException;
