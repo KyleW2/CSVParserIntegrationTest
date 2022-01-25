@@ -24,7 +24,7 @@ import java.nio.file.Files;
 public class AppTest {
     @Test
     public void testRandomElements() throws IOException {
-      CSVParser test = new CSVParser("./src/test/java/com/capstoneteam18/app/csv/valid.csv");
+      CSVParser test = new CSVParser("./src/test/java/com/CapstoneTeam18/app/csv/valid.csv");
       ArrayList<String[]> testCsv = test.getCSV();
 
       assertEquals("failure - element is not correct", "1", testCsv.get(1)[1]);
@@ -35,7 +35,7 @@ public class AppTest {
 
     @Test
     public void testNumberOfRows() throws IOException {
-      CSVParser test = new CSVParser("./src/test/java/com/capstoneteam18/app/csv/valid.csv");
+      CSVParser test = new CSVParser("./src/test/java/com/CapstoneTeam18/app/csv/valid.csv");
       assertEquals("failure - number of rows are not equal", 6, test.getNumRows());
     }
 }
