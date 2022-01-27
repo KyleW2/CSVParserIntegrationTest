@@ -191,4 +191,11 @@ public class AppTest {
       assertEquals(errorString, "y", testCsv.get(29)[0]);
       assertEquals(errorString, "z", testCsv.get(30)[0]);
     }
+    
+    @Test
+    public void testEmplyFile () throws IOException {
+       CSVParser test = new CSVParser("./src/test/java/com/CapstoneTeam18/app/csv/valid.csv");
+       ArrayList<String[]> testCsv = test.getCSV();
+       assertEquals("failure - the file is not empty", 0, testCsv.size());
+    }
 }
