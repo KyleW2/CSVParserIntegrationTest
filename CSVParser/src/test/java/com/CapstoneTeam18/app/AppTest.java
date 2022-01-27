@@ -194,7 +194,7 @@ public class AppTest {
     
     @Test
     public void testEmplyFile () throws IOException {
-       CSVParser test = new CSVParser("./src/test/java/com/CapstoneTeam18/app/csv/valid.csv");
+       CSVParser test = new CSVParser("./src/test/java/com/CapstoneTeam18/app/csv/empty.csv");
        ArrayList<String[]> testCsv = test.getCSV();
        assertEquals("failure - the file is not empty", 0, testCsv.size());
     }
