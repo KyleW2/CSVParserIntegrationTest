@@ -16,8 +16,8 @@
 * ~~Random elements are read correctly~~
 * ~~Correct number of rows~~
 * Correct number of columns
-* Set test for capital and lower case for (en, es)
-* Empty file
+* ~~Set test for capital and lower case for (en, es)~~
+* ~~Empty file~~
 * File with wrong limiters
 
 - - - -
